@@ -18,7 +18,13 @@
 				]
 			},
 			"streamSettings": {
-				"network": "ws"
+				"network": "h2",
+				"httpSettings": {
+					"host": [
+						"233blog.com"
+					],
+					"path": "/233blog"
+				}
 			},
 			"sniffing": {
 				"enabled": true,

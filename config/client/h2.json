@@ -18,7 +18,14 @@
                 ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "h2",
+                "security": "tls",
+                "httpSettings": {
+                    "host": [
+                        "233blog.com"
+                    ],
+                    "path": "/233blog"
+                }
             },
             "mux": {
                 "enabled": true
